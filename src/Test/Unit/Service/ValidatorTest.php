@@ -534,6 +534,13 @@ class ValidatorTest extends TestCase
                 ],
                 0
             ],
+            [
+                '2.4.7',
+                [
+                    ServiceInterface::NAME_RABBITMQ => '3.13.0'
+                ],
+                0
+            ],
         ];
     }
 }
